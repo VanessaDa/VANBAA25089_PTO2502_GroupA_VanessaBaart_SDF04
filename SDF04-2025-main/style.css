@@ -4,9 +4,16 @@ body{
   padding: 0;
 }
 .footer{
-
     background-color: #5e8b7e;
-    color: black;
-    text-align: left; 
-    padding: 2rem 1rem; /* Adds padding to the top and bottom */  
+    color: black; 
+   padding: 2rem 1rem; /* Adds padding to the top and bottom */ 
 }
+
+.footer-links{
+    display: flex;
+    justify-content: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 9rem;
+}
+
