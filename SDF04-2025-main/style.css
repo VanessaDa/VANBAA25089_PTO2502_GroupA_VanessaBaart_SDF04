@@ -3,17 +3,28 @@ body{
   margin: 0;
   padding: 0;
 }
-.footer{
+.footer {
     background-color: #5e8b7e;
     color: black; 
    padding: 2rem 1rem; /* Adds padding to the top and bottom */ 
 }
 
-.footer-links{
+.container {
     display: flex;
-    justify-content: row;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto; /* Centers the container */
+    padding: 0rem 0rem; /* Adds padding to the left and right */
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
     align-items: flex-start;
-    flex-wrap: wrap;
-    gap: 9rem;
+    gap: 10rem;
+    margin: 0;
 }
 
