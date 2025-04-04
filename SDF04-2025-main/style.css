@@ -1,0 +1,12 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.footer{
+
+    background-color: #5e8b7e;
+    color: black;
+    text-align: left; 
+    padding: 2rem 1rem; /* Adds padding to the top and bottom */  
+}
