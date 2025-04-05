@@ -170,7 +170,11 @@ body{
     .footer-logo img {
         height: 20px;
     }
-   
+    .footer-form {
+        flex-direction: column; /* Stack input and button vertically */
+        align-items: stretch; /* Ensure full width for both elements */
+    }
+
     .footer-form input {
         max-width: 100%;
         margin-right: 0;
