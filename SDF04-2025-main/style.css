@@ -13,10 +13,11 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     max-width: 1200px;
-    margin: 0 auto; /* Centers the container */
-    padding: 0rem 0rem; /* Adds padding to the left and right */
+    margin: 0 auto; 
+    padding: 0;
+    margin-top: 2rem;
 }
 .footer-newsletter {
     display: flex;
@@ -24,8 +25,10 @@ body{
     align-items: flex-start;
     text-align: left;
     max-width: 400px;
-    margin-right: 10rem;
-    padding: 0rem 0rem; /* Adds padding to the left and right */
+    margin-right: 5rem;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+    padding: 0; /* Adds padding to the left and right */
 }
 
 .footer-newsletter h2 {
@@ -35,14 +38,15 @@ body{
     color: #2d2d2d;
     text-align: left;
     width: 100%;
-    margin-left: 2rem;   
+  
 }
 
 .footer-form {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    margin: 0 auto;
+    align-items: center;
+    margin: 0;
 }
 
 .footer-form input {
@@ -56,6 +60,7 @@ body{
 
 .footer-form button {
     padding: 0.75rem 1rem;
+    font-weight: bold;
     background-color: #d35400;
     color: white;
     border: 1px solid #d35400;
@@ -72,16 +77,21 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    align-items: flex-start;
-    gap: 10rem;
-    margin: 0;
+    align-items: flex-start; 
+    text-align: left;
+    gap: 15rem;
+    padding: 0; 
+    margin-right: 10rem;
+    
 }
+
 
 .footer-links h2 {
     font-size: 1rem;
     margin-bottom: 1rem;
-    margin-top: auto; 
+    margin-top: 4rem; 
     color: #2d2d2d;
+    
 }
 
 .footer-links ul {
@@ -91,11 +101,12 @@ body{
 }
 
 .footer-links li {
+    font-weight: 300;
     margin-bottom: 0.5rem;
 }
 
 .footer-links a {
-    text-decoration: none;
+    text-decoration: none; 
     color: #2d2d2d;
 }
 
@@ -103,16 +114,11 @@ body{
     text-decoration: underline;
 }
 
-.footer-links  {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
 
 .footer-logo {
     margin-top: 5rem; 
     border-top: 2.3px solid #a67c68; 
-    padding-top: 1rem; 
+    padding-top: 1rem;  
     max-width: 1200px;
     margin: 2rem auto; /* Adds aditional space above the border */
     text-align: left;
