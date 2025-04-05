@@ -3,41 +3,43 @@ body{
   margin: 0;
   padding: 0;
 }
+/* Footer container styles */
 .footer {
     background-color: #5e8b7e;
     color: black; 
-   padding: 2rem 1rem; /* Adds padding to the top and bottom */ 
+    padding: 2rem 1rem; /* Adds padding to the top and bottom */ 
 }
-
+/* Main container inside the footer */
 .container {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: row; /* Arrange items in a row */
+    justify-content: space-between; /* Space out items */
     align-items: flex-start;
     max-width: 1200px;
     margin: 0 auto; 
     padding: 0;
-    margin-top: 2rem;
+    margin-top: 2rem; 
 }
+/* Newsletter section styles */
 .footer-newsletter {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: column; /* Arrange items in a column */
+    align-items: flex-start; /* Align items to the left */
     text-align: left;
     max-width: 400px;
     margin-right: 5rem;
     margin-bottom: 2rem;
     margin-top: 3rem;
-    padding: 0; /* Adds padding to the left and right */
+    padding: 0;  /* Remove padding */
 }
-
+/* Newsletter heading styles */
 .footer-newsletter h2 {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 1.2rem;
     color: #2d2d2d;
     text-align: left;
-    width: 100%;
+    width: 100%; /* Take full width */
   
 }
 
@@ -49,6 +51,7 @@ body{
     margin: 0;
 }
 
+/* Email input field styles */
 .footer-form input {
     padding: 0.75rem;
     border: 1px solid #ccc;
@@ -57,7 +60,7 @@ body{
     margin-right: 1rem; 
     flex-shrink: 0;
 }
-
+/* Subscribe button styles */
 .footer-form button {
     padding: 0.75rem 1rem;
     font-weight: bold;
@@ -73,10 +76,12 @@ body{
     background-color: #b65f45;
     
 }
+
+/* Links section styles */
 .footer-links {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: flex-end; /* Align items to the right */
     align-items: flex-start; 
     text-align: left;
     gap: 15rem;
@@ -93,13 +98,13 @@ body{
     color: #2d2d2d;
     
 }
-
+/* Unordered list styles */
 .footer-links ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
-
+/* List item styles */
 .footer-links li {
     font-weight: 300;
     margin-bottom: 0.5rem;
@@ -114,23 +119,23 @@ body{
     text-decoration: underline;
 }
 
-
+/* Footer logo section styles */
 .footer-logo {
     margin-top: 5rem; 
     border-top: 2.3px solid #a67c68; 
     padding-top: 1rem;  
     max-width: 1200px;
-    margin: 2rem auto; /* Adds aditional space above the border */
+    margin: 2rem auto; 
     text-align: left;
 }
 
 .footer-logo img {
-    height: 23px;
+    height: 23px;  /* Set image height */
 }
-
+/* Media query for screens smaller than 768px */
 @media (max-width: 768px) {
     .container {
-        flex-direction: column;
+        flex-direction: column; 
         align-items: flex-start;
         text-align: left;
 
@@ -153,7 +158,7 @@ body{
     margin-top: 2rem;
     }
   }
-
+/* Media query for screens smaller than 480px */
   @media (max-width: 480px) {
     .footer-links {
         flex-direction: column;
