@@ -151,7 +151,39 @@ body{
     .footer-logo {
     text-align: left;
     margin-top: 2rem;
-
     }
-
   }
+
+  @media (max-width: 480px) {
+    .footer-links {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+        margin-top: 0; 
+    }
+    .footer-links h2 {
+        margin-top: 0; 
+    }
+    .footer-logo {
+        margin-top: 2rem;
+    }
+    .footer-logo img {
+        height: 20px;
+    }
+   
+    .footer-form input {
+        max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+    .footer-form button {
+        max-width: 100%;
+        margin-right: 0;
+    }
+}
+       
+
+
+    
+      
+    
